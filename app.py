@@ -60,4 +60,5 @@ def get_incidents():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Run the app on all network interfaces, port 5000, and in debug mode
+    app.run(host='0.0.0.0', port=5000, debug=True)

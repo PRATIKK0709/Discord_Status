@@ -49,17 +49,11 @@ Example response:
 
 ```json
 [
-    {
-        "description": "We are continuing to monitor the incident.",
-        "timestamp": "15th March 2024, 12:30 PM UTC",
-        "title": "Partial Outage"
-    },
-    {
-        "description": "All systems operational",
-        "timestamp": "15th March 2024, 12:00 PM UTC",
-        "title": "Resolved: Degraded Performance"
-    },
-    ...
+  {
+    "description": "We are seeing recovery and will continue monitoring the system",
+    "timestamp": "Mar 14, 2024 - 12:18 PDT",
+    "title": "Media unable to load"
+  }
 ]
 ```
 
